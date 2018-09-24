@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+
+   <head>
+      <title>URL Shortener</title>
+      <link rel="shortcut icon" href="https://cdn.hyperdev.com/us-east-1%3A52a203ff-088b-420f-81be-45bf559d01b1%2Ffavicon.ico" type="image/x-icon"/>
+      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+        <h2>API Project: URL Shortener Microservice</h2>
+
+        
+        <h3>Short URL Creation </h3>
+        
+        <form action="api/shorturl/new" method="POST">
+          <label for="url_input">URL to be shortened</label>
+          <input id="url_input" type="text" name="url" value="https://www.freecodecamp.com">
+          <input type="submit" value="POST URL">
+        </form>
+        <h3>Example Usage:</h3>
+        <a href="https://platinum-offer.glitch.me/api/shorturl/3">
+          https://platinum-offer.glitch.me/api/shorturl/3
+        </a>
+
+        <h3>Will Redirect to:</h3>
+        <p>https://www.google.com</p>
+      </div>
+      <div class="footer">
+        <p>
+          Made with &#10084; by <a href="http://www.freecodecamp.com/jasmeetsohal">jasmeetsohal</a>
+        </p>
+      </div>
+   </body>
+
+
+</html>
